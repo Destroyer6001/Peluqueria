@@ -1,0 +1,51 @@
+﻿@model EstilistaViewModel
+@{
+    ViewData["Title"] = "Crear Estilista";
+}
+
+<div class="row">
+    <div class="col-md-8  offset-md-2 by-10" id="EditarEstilista">
+        <div class="row" id="TituloEditarEstilista">
+            <h1>Editar Estilista</h1>
+        </div>
+
+        <div class="row" id="SubtituloEditarEstilista">
+            <h5>Los estilistas son aquellos que se encargan de prestar los servicios dentro de la peluqueria</h5>
+        </div>
+
+        <div class="row" id="FormularioEditarEstilista">
+            <form asp-action="Editar">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <input type="hidden" asp-for="Id" />
+
+                <div class="mb-3">
+                    <label asp-for="Nombre" class="form-label"></label>
+                    <input asp-for="Nombre" class="form-control" id="CampoEstilistaEditar" />
+                    <span asp-validation-for="Nombre" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Edad" class="form-label"></label>
+                    <input asp-for="Edad" class="form-control" id="CampoEstilistaEditar" />
+                    <span asp-validation-for="Edad" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="DocumentoDeIdentidad" class="form-label"></label>
+                    <input asp-for="DocumentoDeIdentidad" class="form-control" id="CampoEstilistaEditae" />
+                    <span asp-validation-for="DocumentoDeIdentidad" class="text-danger"></span>
+                </div>
+
+                <button class="btn" id="EditarEstilistaBoton">Enviar</button>
+                <a class="btn" id="EditarEstilistaCancelar" asp-action="Index">Cancelar</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts
+    {
+    <partial name="_ValidationScriptsPartial" />
+}

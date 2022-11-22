@@ -1,0 +1,54 @@
+﻿@model IEnumerable<EstilistaViewModel>
+@{
+    ViewData["Index"] = "Estilistas";
+}
+
+<div class="row">
+    <div class="col-md-10 offset-md-1 by-10" id="IndexEstilistas">
+        <div class="row" id="TituloIndiceEstilistas">
+            <h1>Estilistas</h1>
+        </div>
+
+        <div class="row" id="SubtituloIndiceEstilistas">
+            <h5>Los estilistas son aquellos que se encargan de prestar los servicios dentro de la peluqueria</h5>
+        </div>
+
+        <div class="row" id="BotonCrearIndiceEstilista">
+            <a asp-action="Crear" class="btn mb-3">Crear</a>
+        </div>
+
+        <div class="row" id="TablaIndiceEstilistas">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Acciones</th>
+                        <th>Nombre</th>
+                        <th>Edad</th>
+                        <th>Documento de identidad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var Estilista in Model)
+                    {
+                        <tr>
+                            <td>
+                                <a class="btn" asp-action="Editar" asp-route-id="@Estilista.Id" id="BotonEditarIndiceEstilista">Editar</a>
+                                <a class="btn" asp-action="Borrar" asp-route-id="@Estilista.Id" id="BotonBorrarIndiceEstilista">Borrar</a>
+                            </td>
+                            <td>
+                                @Estilista.Nombre
+                            </td>
+                            <td>
+                                @Estilista.Edad
+                            </td>
+                            <td>
+                                @Estilista.DocumentoDeIdentidad
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+

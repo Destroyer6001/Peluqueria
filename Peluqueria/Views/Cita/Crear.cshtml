@@ -1,0 +1,67 @@
+﻿@model CitaCreacionViewModel
+@{
+    ViewData["Title"] = "Crear Cita";
+}
+<div class="row">
+    <div class="col-md-8  offset-md-2 by-10" id="CrearCita">
+
+        <div class="row" id="TituloCrearCita">
+            <h1>Crear Cita</h1>
+        </div>
+
+        <div class="row" id="SubtituloCitaCrear">
+            <h5>La cita se refiere a la sesion que un cliente programa dentro del salon con el estilista que este elija y el tipo de
+                servicio que este desee
+            </h5>
+        </div>
+
+        <div class="row" id="FormularioCrearCita">
+            <form asp-action="Crear">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="mb-3">
+                    <label asp-for="Nombre" class="form-label"></label>
+                    <input asp-for="Nombre" class="form-control" id="CampoCitaCrear" />
+                    <span asp-validation-for="Nombre" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Apellidos" class="form-label"></label>
+                    <input asp-for="Apellidos" class="form-control" id="CampoCitaCrear" />
+                    <span asp-validation-for="Apellidos" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Telefono" class="form-label"></label>
+                    <input asp-for="Telefono" class="form-control" id="CampoCitaCrear" />
+                    <span asp-validation-for="Telefono" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="HoraCita" class="form-label"></label>
+                    <input asp-for="HoraCita" class="form-control" id="CampoCitaCrear" />
+                    <span asp-validation-for="HoraCita" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="IdEstilista" class="form-label"></label>
+                    <select asp-for="IdEstilista" asp-items="Model.EstilistaViewModel" class="form-select" id="CampoCitaCrear"></select>
+                    <span asp-validation-for="IdEstilista" class="text-danger"></span>
+                </div>
+            
+                <div class="mb-3">
+                    <label asp-for="IdTipoDeServicio" class="form-label"></label>
+                    <select asp-for="IdTipoDeServicio" asp-items="Model.TipoDeServicioViewModel" class="form-select" id="CampoCitaCrear"></select>
+                    <span asp-validation-for="IdTipoDeServicio" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn" id="boton-crearCita">Enviar</button>
+                <a class="btn" asp-action="Index" id="boton-CancelarCrear">Cancelar</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

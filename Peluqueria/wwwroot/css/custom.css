@@ -1,0 +1,676 @@
+﻿#TituloCrearEstilista {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#SubtituloCrearEstilista {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#FormularioCrearEstilista {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#CrearEstilista {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#CrearEstilistaBoton {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 45px;
+    font-size: 17px;
+}
+
+#CampoEstilistaCrear {
+    border-radius: 10px
+}
+
+
+#CrearEstilistaCancelar {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 47px;
+    font-size: 17px;
+}
+
+#IndexEstilistas {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#TituloIndiceEstilistas {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#SubtituloIndiceEstilistas {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#TablaIndiceEstilistas {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#BotonCrearIndiceEstilista {
+    margin-top: 30px;
+    background: #85C1E9;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 135px;
+    height: 45px;
+    font-size: 17px;
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#BotonEditarIndiceEstilista {
+    background: #58D68D;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 60px;
+    height: 30px;
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+#BotonBorrarIndiceEstilista {
+    background: #EC7063;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 60px;
+    height: 30px;
+    font-size: 10px;
+}
+
+#NoEncontradoLink {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#TituloNoEncontrado {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#NoEncontrado {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#EditarEstilista {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#TituloEditarEstilista {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#SubtituloEditarEstilista {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#FormularioEditarEstilista {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#EditarEstilistaBoton {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 47px;
+    font-size: 17px;
+}
+
+#EditarEstilistaCancelar {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 45px;
+    font-size: 17px;
+}
+
+#CampoEstilistaEditar {
+    border-radius: 10px
+}
+
+#BorrarEstilista {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#FormularioBorrarEstilista {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#TituloBorrarEstilista {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#SubtituloBorrarEstilista {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#BotonBorrarEstilista {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 47px;
+    font-size: 17px;
+}
+
+#botonCancelarBorrarEstilista {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 45px;
+    font-size: 17px;
+}
+
+#TituloCrearTipoDeServicio {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#SubtituloCrearTipoDeServicio {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#FormularioCrearTipoDeServicio {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#CrearTipoDeServicio {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#CrearTipoDeServicioBoton {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 45px;
+    font-size: 17px;
+}
+
+#CampoTipoDeServicioCrear {
+    border-radius: 10px
+}
+
+
+#CrearTipoDeServicioCancelar {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 47px;
+    font-size: 17px;
+}
+
+#IndexTipoDeServicio {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#TituloIndiceTipoDeServicio {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#SubtituloIndiceTipoDeServicio {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#TablaIndiceTipoDeServicio {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#BotonCrearIndiceTipoDeServicio {
+    margin-top: 30px;
+    background: #85C1E9;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 135px;
+    height: 45px;
+    font-size: 17px;
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#BotonEditarIndiceTipoDeServicio {
+    background: #58D68D;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 60px;
+    height: 30px;
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+#BotonBorrarIndiceTipoDeServicio {
+    background: #EC7063;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 60px;
+    height: 30px;
+    font-size: 10px;
+}
+
+#EditarTipoDeServicio {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#TituloEditarTipoDeServicio {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#SubtituloEditarTipoDeServicio {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#FormularioEditarTipoDeServicio {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#EditarTipoDeServicioBoton {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 47px;
+    font-size: 17px;
+}
+
+#EditarTipoDeServicioCancelar {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 45px;
+    font-size: 17px;
+}
+
+#CampoTipoDeServicioEditar {
+    border-radius: 10px
+}
+
+
+#BorrarTipoDeServicio {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#FormularioBorrarTipoDeServicio {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#TituloBorrarTipoDeServicio {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#SubtituloBorrarTipoDeServicio {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#BotonBorrarTipoDeServicio {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 47px;
+    font-size: 17px;
+}
+
+#botonCancelarBorrarTipoDeServicio {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 45px;
+    font-size: 17px;
+}
+
+#TituloCrearCita {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#SubtituloCitaCrear {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#FormularioCrearCita {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#CrearCita {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#boton-crearCita {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 45px;
+    font-size: 17px;
+}
+
+#CampoCitaCrear {
+    border-radius: 10px
+}
+
+#boton-CancelarCrear {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 47px;
+    font-size: 17px;
+}
+
+#IndexCita {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#TituloIndiceCita {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#SubtituloIndiceCita {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#TablaIndiceCita {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#BotonCrearIndiceCita {
+    margin-top: 30px;
+    background: #85C1E9;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 135px;
+    height: 45px;
+    font-size: 17px;
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#BotonEditarIndiceCita {
+    background: #58D68D;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 60px;
+    height: 30px;
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+#BotonBorrarIndiceCita {
+    background: #EC7063;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 60px;
+    height: 30px;
+    font-size: 10px;
+}
+
+#EditarCita {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#TituloEditarCita {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#SubtituloEditarCita {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#FormularioEditarCita {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#boton-editarCita {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 47px;
+    font-size: 17px;
+}
+
+#boton-Cancelareditar {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 45px;
+    font-size: 17px;
+}
+
+#CampoCitaEditar {
+    border-radius: 10px
+}
+
+#BorrarCita {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#FormularioBorrarCita {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#TituloBorrarCita {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#SubtituloBorrarCita {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#BotonBorrarCita {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 47px;
+    font-size: 17px;
+}
+
+#botonCancelarBorrarCita {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 45px;
+    font-size: 17px;
+}

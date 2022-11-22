@@ -1,0 +1,45 @@
+﻿@model IEnumerable<TipoDeServicioViewModel>
+@{
+    ViewData["Title"] = "Tipos De Servicios";
+}
+
+<div class="row">
+    <div class="col-md-10 offset-md-1 by-10" id="IndexTipoDeServicio">
+        <div class="row" id="TituloIndiceTipoDeServicio">
+            <h1>Tipo De Servicio</h1>
+        </div>
+
+        <div class="row" id="SubtituloIndiceTipoDeServicio">
+            <h5>Los servicios son aquellos que hacen referencia a los servicios que ofrece la peluqueria</h5>
+        </div>
+
+        <div class="row" id="BotonCrearIndiceTipoDeServicio">
+            <a asp-action="Crear" class="btn mb-3">Crear</a>
+        </div>
+
+        <div class="row" id="TablaIndiceTipoDeServicio">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Acciones</th>
+                        <th>Nombre</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var TipoDeServicio in Model)
+                    {
+                        <tr>
+                            <td>
+                                <a class="btn" asp-action="Editar" asp-route-id="@TipoDeServicio.Id" id="BotonEditarIndiceTipoDeServicio">Editar</a>
+                                <a class="btn" asp-action="Borrar" asp-route-id="@TipoDeServicio.Id" id="BotonBorrarIndiceTipoDeServicio">Borrar</a>
+                            </td>
+                            <td>
+                                @TipoDeServicio.Nombre
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

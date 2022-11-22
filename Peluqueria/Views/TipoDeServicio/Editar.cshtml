@@ -1,0 +1,37 @@
+﻿@model TipoDeServicioViewModel
+@{
+    ViewData["Title"] = "Editar Tipo De Servicio";
+}
+
+<div class="row">
+    <div class="col-md-8  offset-md-2 by-10" id="EditarTipoDeServicio">
+        <div class="row" id="TituloEditarTipoDeServicio">
+            <h1>Editar Tipo De Servicio</h1>
+        </div>
+
+        <div class="row" id="SubtituloEditarTipoDeServicio">
+            <h5>Los servicios son aquellos que hacen referencia a los servicios que ofrece la peluqueria</h5>
+        </div>
+
+        <div class="row" id="FormularioEditarTipoDeServicio">
+            <form asp-action="Editar">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <input type="hidden" asp-for="Id" />
+                <div class="mb-3">
+                    <label asp-for="Nombre" class="form-label"></label>
+                    <input asp-for="Nombre" class="form-control" id="CampoTipoDeServicioEditar" />
+                    <span asp-validation-for="Nombre" class="text-danger"></span>
+                </div>
+
+                <button class="btn" id="EditarTipoDeServicioBoton">Enviar</button>
+                <a class="btn" id="EditarTipoDeServicioCancelar" asp-action="Index">Cancelar</a>
+            </form>
+        </div>
+    </div>
+</div>
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial" />
+}
+

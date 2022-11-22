@@ -1,0 +1,22 @@
+﻿@model CitaViewModel
+@{
+    ViewData["Title"] = "Borrar Cita";
+}
+
+<div class="row">
+    <div class="col-md-8  offset-md-2 by-10" id="BorrarCita">
+        <div class="row" id="TituloBorrarCita">
+            <h1>Borrar </h1>
+        </div>
+        <div class="row" id="SubtituloBorrarCita">
+            <h3 class="mb-3">¡Esta seguro que desea borrar la cita del dia y la hora @Model.HoraCita, Pedida por el cliente @Model.Nombre @Model.Apellidos</h3>
+        </div>
+        <div class="row" id="FormularioBorrarCita">
+            <form asp-action="BorrarCita">
+                <input type="hidden" asp-for="Id" />
+                <button type="submit" class="btn" id="BotonBorrarCita">Borrar</button>
+                <a class="btn" asp-action="Index" id="botonCancelarBorrarCita">Cancelar</a>
+            </form>
+        </div>
+    </div>
+</div>

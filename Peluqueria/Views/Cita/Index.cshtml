@@ -1,0 +1,66 @@
+﻿@model IEnumerable<CitaViewModel>
+@{
+    ViewData["Title"] = "Citas";
+}
+<div class="row">
+    <div class="col-md-10 offset-md-1 by-10 " id="IndexCita">
+        <div class="row" id="TituloIndiceCita">
+            <h1>Citas</h1>
+        </div>
+
+        <div class="row" id="SubtituloIndiceCita">
+            <h5>La cita se refiere a la sesion que un cliente programa dentro del salon con el estilista que este elija y el tipo de
+                servicio que este desee</h5>
+        </div>
+
+        <div class="row" id="BotonCrearIndiceCita">
+            <a asp-action="Crear" class="btn mb-3">Crear</a>
+        </div>
+
+        <div class="row" id="TablaIndiceCita">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Acciones</th>
+                        <th>Nombre</th>
+                        <th>Apellidos</th>
+                        <th>Telefono</th>
+                        <th>Hora</th>
+                        <th>Estilista</th>
+                        <th>Servicio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var Cita in Model)
+                    {
+                        <tr>
+                            <td>
+                                <a class="btn" asp-action="Editar" asp-route-id="@Cita.Id" id="BotonEditarIndiceCita">Editar</a>
+                                <a class="btn" asp-action="Borrar" asp-route-id="@Cita.Id" id="BotonBorrarIndiceCita">Borrar</a>
+                            </td>
+                            <td>
+                                @Cita.Nombre
+                            </td>
+                            <td>
+                                @Cita.Apellidos
+                            </td>
+                            <td>
+                                @Cita.Telefono
+                            </td>
+                            <td>
+                                @Cita.HoraCita
+                            </td>
+                            <td>
+                                @Cita.NombreEstilista
+                            </td>
+                            <td>
+                                @Cita.NombreTipoDECuenta
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
